@@ -12,10 +12,9 @@ def top_3_accuracy(y_true, y_pred):
     return sparse_top_k_categorical_accuracy(y_true, y_pred, k=3)
 
 # Load your trained model
-model = tf.keras.models.load_model(
-    'music genre classifier/model/genre_classifier_cnn.keras',
-    custom_objects={"top_3_accuracy": top_3_accuracy}
-)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, "model", "genre_classifier_cnn.keras")
+model = tf.keras.models.load_model(model_path)
 
 # Define your genre labels (must match training)
 GENRES = ['blues', 'classical', 'country', 'disco', 'hiphop',
