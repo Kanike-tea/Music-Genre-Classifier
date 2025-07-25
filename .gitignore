@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS-specific files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Python egg metadata
+*.egg-info/
+*.egg
+
+# Logs and outputs
+*.log
+
+# Gradio cache
+gradio_cached_examples/
+
+# OS junk
+Thumbs.db
+ehthumbs.db
