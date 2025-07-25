@@ -7,8 +7,10 @@ A deep learning-based project that classifies music into genres using audio spec
 - **GTZAN Dataset**  
   A standard music genre classification dataset containing 1000 audio tracks, each 30 seconds long, categorized into 10 genres:
   `blues`, `classical`, `country`, `disco`, `hiphop`, `jazz`, `metal`, `pop`, `reggae`, `rock`.
+- **FMA (Free Music Archive)**
+  For dataset expansion
 
-> Note: The dataset is **not included** in this repository due to size constraints.
+> Note: The datasets are **not included** in this repository due to size constraints.
 
 ## Model Summary
 
@@ -24,6 +26,8 @@ The interface lets you:
 - Upload an audio file (`.mp3`, `.flac`, `.aac`, `.ogg`, `.m4a`, `.wma`, `.wav`)
 - View the spectogram
 - Get genre prediction with confidence score
+
+https://github.com/user-attachments/assets/021c9ce2-5ebc-4887-858a-0b9cba8ed928
 
 ## Setup Instructions
 
