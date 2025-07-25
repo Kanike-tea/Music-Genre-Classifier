@@ -20,6 +20,16 @@ A deep learning-based project that classifies music into genres using audio spec
 
 ## Demo (Gradio)
 
-Run the app to test predictions on your own audio files:
-```bash
-python app.py
+The interface lets you:
+- Upload an audio file (`.mp3`, `.flac`, `.aac`, `.ogg`, `.m4a`, `.wma`, `.wav`)
+- View the spectogram
+- Get genre prediction with confidence score
+
+## Setup Instructions
+
+- Install dependencies:
+  ```bash
+  pip install -r requirements.txt
+- Run the Gradio app:
+  ```bash
+  python app.py
