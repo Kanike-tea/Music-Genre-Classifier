@@ -1,6 +1,6 @@
 # Music Genre Classifier
 
-A deep learning-based project that classifies music into genres using audio spectrograms and Convolutional Neural Networks (CNNs). This project includes data preprocessing, model training, and a Gradio-powered web interface for real-time genre prediction from audio files.
+A deep learning-based project that classifies music into genres using Convolutional Neural Networks (CNNs). This project includes data preprocessing, model training, and a Gradio-powered web interface for real-time genre prediction from audio files.
 
 ## Datasets Used
 
