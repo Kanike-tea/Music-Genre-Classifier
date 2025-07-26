@@ -27,8 +27,6 @@ The interface lets you:
 - View the spectogram
 - Get genre prediction with confidence score
 
-https://github.com/user-attachments/assets/021c9ce2-5ebc-4887-858a-0b9cba8ed928
-
 ## Setup Instructions
 
 - Install dependencies:
