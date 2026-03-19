@@ -100,5 +100,5 @@ Then open [http://127.0.0.1:7860](http://127.0.0.1:7860) in your browser.
 
 ## Demo
 
-![1A022298-27DA-4B72-AF19-DE42EC166946_1_201_a](https://github.com/user-attachments/assets/8feff381-ecd9-46a1-95ba-e4b2f27e91a2)
+![Gradio UI showing jazz prediction at 100% confidence](https://github.com/user-attachments/assets/8feff381-ecd9-46a1-95ba-e4b2f27e91a2)
 
